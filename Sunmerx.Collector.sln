@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunmerx.Collector", "Sunmerx.Collector\Sunmerx.Collector.csproj", "{C59B73CC-88A2-4167-A7EA-562DA290D65D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunmerx.Node", "Sunmerx.Node\Sunmerx.Node.csproj", "{845E56D2-0E29-4221-9B71-BC6B9E69231F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{8BE111E7-635B-46D6-A5EA-75FAD268B8F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeLibTest", "NodeLibTest\NodeLibTest.csproj", "{31A88C02-F13E-4563-AD2C-39247D4EECC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunmerx.Common", "Sunmerx.Common\Sunmerx.Common.csproj", "{1EAAC95C-DF7E-408E-8EFB-23889B240AA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunmerx.Interactive", "Sunmerx.Interactive\Sunmerx.Interactive.csproj", "{1148FEE3-A578-4F12-8DFB-CA066429C6B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C59B73CC-88A2-4167-A7EA-562DA290D65D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C59B73CC-88A2-4167-A7EA-562DA290D65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C59B73CC-88A2-4167-A7EA-562DA290D65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C59B73CC-88A2-4167-A7EA-562DA290D65D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{845E56D2-0E29-4221-9B71-BC6B9E69231F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845E56D2-0E29-4221-9B71-BC6B9E69231F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845E56D2-0E29-4221-9B71-BC6B9E69231F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845E56D2-0E29-4221-9B71-BC6B9E69231F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31A88C02-F13E-4563-AD2C-39247D4EECC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A88C02-F13E-4563-AD2C-39247D4EECC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A88C02-F13E-4563-AD2C-39247D4EECC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A88C02-F13E-4563-AD2C-39247D4EECC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EAAC95C-DF7E-408E-8EFB-23889B240AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EAAC95C-DF7E-408E-8EFB-23889B240AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EAAC95C-DF7E-408E-8EFB-23889B240AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EAAC95C-DF7E-408E-8EFB-23889B240AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1148FEE3-A578-4F12-8DFB-CA066429C6B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1148FEE3-A578-4F12-8DFB-CA066429C6B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1148FEE3-A578-4F12-8DFB-CA066429C6B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1148FEE3-A578-4F12-8DFB-CA066429C6B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{31A88C02-F13E-4563-AD2C-39247D4EECC1} = {8BE111E7-635B-46D6-A5EA-75FAD268B8F0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4D45746-B3A5-48BB-AD41-551E993DE149}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+D:\Users\DELL\source\repos\Sunmerx.Collector\Sunmerx.Common\bin\Debug\net6.0\Sunmerx.Common.deps.json
+D:\Users\DELL\source\repos\Sunmerx.Collector\Sunmerx.Common\bin\Debug\net6.0\Sunmerx.Common.dll
+D:\Users\DELL\source\repos\Sunmerx.Collector\Sunmerx.Common\bin\Debug\net6.0\Sunmerx.Common.pdb
+D:\Users\DELL\source\repos\Sunmerx.Collector\Sunmerx.Common\obj\Debug\net6.0\Sunmerx.Common.csproj.AssemblyReference.cache
+D:\Users\DELL\source\repos\Sunmerx.Collector\Sunmerx.Common\obj\Debug\net6.0\Sunmerx.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\DELL\source\repos\Sunmerx.Collector\Sunmerx.Common\obj\Debug\net6.0\Sunmerx.Common.AssemblyInfoInputs.cache
+D:\Users\DELL\source\repos\Sunmerx.Collector\Sunmerx.Common\obj\Debug\net6.0\Sunmerx.Common.AssemblyInfo.cs
+D:\Users\DELL\source\repos\Sunmerx.Collector\Sunmerx.Common\obj\Debug\net6.0\Sunmerx.Common.csproj.CoreCompileInputs.cache
+D:\Users\DELL\source\repos\Sunmerx.Collector\Sunmerx.Common\obj\Debug\net6.0\Sunmerx.Common.dll
+D:\Users\DELL\source\repos\Sunmerx.Collector\Sunmerx.Common\obj\Debug\net6.0\refint\Sunmerx.Common.dll
+D:\Users\DELL\source\repos\Sunmerx.Collector\Sunmerx.Common\obj\Debug\net6.0\Sunmerx.Common.pdb
+D:\Users\DELL\source\repos\Sunmerx.Collector\Sunmerx.Common\obj\Debug\net6.0\ref\Sunmerx.Common.dll

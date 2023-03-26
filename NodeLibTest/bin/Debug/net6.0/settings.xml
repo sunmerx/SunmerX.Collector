@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Catalogs Name="Devices" Description="说明">
+    <XmlNodeClass Name="分厂一" Description="说明">
+      <XmlNodeClass Name="产线一" Description="说明">
+        <XmlNodeClass Name="设备1" Description="说明">
+          <Settings>
+            <Settings Key="IP" Value="127.0.0.1" />
+          </Settings>
+          <DataGroups Name="分组1" Description="说明" Length="0" UnitDataLength="">
+            <DataItems Name="变量1" ID="0" Address="D100" />
+          </DataGroups>
+        </XmlNodeClass>
+      </XmlNodeClass>
+    </XmlNodeClass>
+  </Catalogs>
+</Configuration>
