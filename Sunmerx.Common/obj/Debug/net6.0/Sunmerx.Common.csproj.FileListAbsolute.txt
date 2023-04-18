@@ -10,3 +10,15 @@ D:\Users\DELL\source\repos\Sunmerx.Collector\Sunmerx.Common\obj\Debug\net6.0\Sun
 D:\Users\DELL\source\repos\Sunmerx.Collector\Sunmerx.Common\obj\Debug\net6.0\refint\Sunmerx.Common.dll
 D:\Users\DELL\source\repos\Sunmerx.Collector\Sunmerx.Common\obj\Debug\net6.0\Sunmerx.Common.pdb
 D:\Users\DELL\source\repos\Sunmerx.Collector\Sunmerx.Common\obj\Debug\net6.0\ref\Sunmerx.Common.dll
+E:\Projects\SunmerX.Collector\Sunmerx.Common\bin\Debug\net6.0\Sunmerx.Common.deps.json
+E:\Projects\SunmerX.Collector\Sunmerx.Common\bin\Debug\net6.0\Sunmerx.Common.dll
+E:\Projects\SunmerX.Collector\Sunmerx.Common\bin\Debug\net6.0\Sunmerx.Common.pdb
+E:\Projects\SunmerX.Collector\Sunmerx.Common\obj\Debug\net6.0\Sunmerx.Common.csproj.AssemblyReference.cache
+E:\Projects\SunmerX.Collector\Sunmerx.Common\obj\Debug\net6.0\Sunmerx.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\SunmerX.Collector\Sunmerx.Common\obj\Debug\net6.0\Sunmerx.Common.AssemblyInfoInputs.cache
+E:\Projects\SunmerX.Collector\Sunmerx.Common\obj\Debug\net6.0\Sunmerx.Common.AssemblyInfo.cs
+E:\Projects\SunmerX.Collector\Sunmerx.Common\obj\Debug\net6.0\Sunmerx.Common.csproj.CoreCompileInputs.cache
+E:\Projects\SunmerX.Collector\Sunmerx.Common\obj\Debug\net6.0\Sunmerx.Common.dll
+E:\Projects\SunmerX.Collector\Sunmerx.Common\obj\Debug\net6.0\refint\Sunmerx.Common.dll
+E:\Projects\SunmerX.Collector\Sunmerx.Common\obj\Debug\net6.0\Sunmerx.Common.pdb
+E:\Projects\SunmerX.Collector\Sunmerx.Common\obj\Debug\net6.0\ref\Sunmerx.Common.dll

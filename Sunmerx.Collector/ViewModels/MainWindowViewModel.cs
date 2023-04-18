@@ -16,11 +16,7 @@ namespace Sunmerx.Collector.ViewModels
         }
         #region TreeView ViewModel
 
-        public ObservableCollection<> MyProperty
-        {
-            get; set;
-        }
-
+       
         #endregion
     }
 }

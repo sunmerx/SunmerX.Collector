@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
+using HslCommunication;
+using HslCommunication.Core;
 using HslCommunication.Profinet.Siemens;
+using Sunmerx.Node;
 
 namespace Sunmerx.Interactive.Config
 {
@@ -33,5 +37,26 @@ namespace Sunmerx.Interactive.Config
         {
             get; set;
         }
+        public int ConnectTimeOut
+        {
+            get; set;
+        }
+        public int MyProperty
+        {
+            get; set;
+        }
+        public int ReceiveTimeOut
+        {
+            get; set;
+        }
+        public byte ConnectionType
+        {
+            get; set;
+        } = NM.Siemens.ConnectionType_PG;
+        public int LocalTSAP
+        {
+            get; set;
+        } = 258;
+
     }
 }

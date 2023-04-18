@@ -1,23 +1,22 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\DELL\\source\\repos\\Sunmerx.Collector\\Sunmerx.Collector\\Sunmerx.Collector.csproj": {}
+    "E:\\Projects\\SunmerX.Collector\\Sunmerx.Collector\\Sunmerx.Collector.csproj": {}
   },
   "projects": {
-    "D:\\Users\\DELL\\source\\repos\\Sunmerx.Collector\\Sunmerx.Collector\\Sunmerx.Collector.csproj": {
+    "E:\\Projects\\SunmerX.Collector\\Sunmerx.Collector\\Sunmerx.Collector.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\DELL\\source\\repos\\Sunmerx.Collector\\Sunmerx.Collector\\Sunmerx.Collector.csproj",
+        "projectUniqueName": "E:\\Projects\\SunmerX.Collector\\Sunmerx.Collector\\Sunmerx.Collector.csproj",
         "projectName": "Sunmerx.Collector",
-        "projectPath": "D:\\Users\\DELL\\source\\repos\\Sunmerx.Collector\\Sunmerx.Collector\\Sunmerx.Collector.csproj",
+        "projectPath": "E:\\Projects\\SunmerX.Collector\\Sunmerx.Collector\\Sunmerx.Collector.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\DELL\\source\\repos\\Sunmerx.Collector\\Sunmerx.Collector\\obj\\",
+        "outputPath": "E:\\Projects\\SunmerX.Collector\\Sunmerx.Collector\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "D:\\Users\\DELL\\source\\repos\\NuGet.Config",
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -26,16 +25,17 @@
           "net6.0-windows"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/iotsharp/api/v3/index.json": {}
+          "https://ci.appveyor.com/nuget/gemini-g84phgw340sm": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "D:\\Users\\DELL\\source\\repos\\Sunmerx.Collector\\Sunmerx.Node\\Sunmerx.Node.csproj": {
-                "projectPath": "D:\\Users\\DELL\\source\\repos\\Sunmerx.Collector\\Sunmerx.Node\\Sunmerx.Node.csproj"
+              "E:\\Projects\\SunmerX.Collector\\Sunmerx.Node\\Sunmerx.Node.csproj": {
+                "projectPath": "E:\\Projects\\SunmerX.Collector\\Sunmerx.Node\\Sunmerx.Node.csproj"
               }
             }
           }
@@ -86,20 +86,19 @@
         }
       }
     },
-    "D:\\Users\\DELL\\source\\repos\\Sunmerx.Collector\\Sunmerx.Node\\Sunmerx.Node.csproj": {
+    "E:\\Projects\\SunmerX.Collector\\Sunmerx.Node\\Sunmerx.Node.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\DELL\\source\\repos\\Sunmerx.Collector\\Sunmerx.Node\\Sunmerx.Node.csproj",
+        "projectUniqueName": "E:\\Projects\\SunmerX.Collector\\Sunmerx.Node\\Sunmerx.Node.csproj",
         "projectName": "Sunmerx.Node",
-        "projectPath": "D:\\Users\\DELL\\source\\repos\\Sunmerx.Collector\\Sunmerx.Node\\Sunmerx.Node.csproj",
+        "projectPath": "E:\\Projects\\SunmerX.Collector\\Sunmerx.Node\\Sunmerx.Node.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\DELL\\source\\repos\\Sunmerx.Collector\\Sunmerx.Node\\obj\\",
+        "outputPath": "E:\\Projects\\SunmerX.Collector\\Sunmerx.Node\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "D:\\Users\\DELL\\source\\repos\\NuGet.Config",
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -108,9 +107,10 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/iotsharp/api/v3/index.json": {}
+          "https://ci.appveyor.com/nuget/gemini-g84phgw340sm": {}
         },
         "frameworks": {
           "net6.0": {

@@ -1,23 +1,22 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\DELL\\source\\repos\\Sunmerx.Collector\\Sunmerx.Common\\Sunmerx.Common.csproj": {}
+    "E:\\Projects\\SunmerX.Collector\\Sunmerx.Common\\Sunmerx.Common.csproj": {}
   },
   "projects": {
-    "D:\\Users\\DELL\\source\\repos\\Sunmerx.Collector\\Sunmerx.Common\\Sunmerx.Common.csproj": {
+    "E:\\Projects\\SunmerX.Collector\\Sunmerx.Common\\Sunmerx.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\DELL\\source\\repos\\Sunmerx.Collector\\Sunmerx.Common\\Sunmerx.Common.csproj",
+        "projectUniqueName": "E:\\Projects\\SunmerX.Collector\\Sunmerx.Common\\Sunmerx.Common.csproj",
         "projectName": "Sunmerx.Common",
-        "projectPath": "D:\\Users\\DELL\\source\\repos\\Sunmerx.Collector\\Sunmerx.Common\\Sunmerx.Common.csproj",
+        "projectPath": "E:\\Projects\\SunmerX.Collector\\Sunmerx.Common\\Sunmerx.Common.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\DELL\\source\\repos\\Sunmerx.Collector\\Sunmerx.Common\\obj\\",
+        "outputPath": "E:\\Projects\\SunmerX.Collector\\Sunmerx.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "D:\\Users\\DELL\\source\\repos\\NuGet.Config",
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -26,9 +25,10 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/iotsharp/api/v3/index.json": {}
+          "https://ci.appveyor.com/nuget/gemini-g84phgw340sm": {}
         },
         "frameworks": {
           "net6.0": {
@@ -45,6 +45,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.CodeDom": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

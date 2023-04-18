@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pAOq/d4LN8KBy6wdw9vEJEAdlmQgHGA6QcFT+CjPc+zztExibHS04MfCPyzHu2x4uCEO6wlyaXAPCI0qZPpeiw==",
+  "dgSpecHash": "9lJlYinLIlnkYsTDQr0iBWG1DOIDUxFwrX+eaL0L694iZvdrgZdvWABd8N9rGoY/cFTYS9X3//uyzw+QdFFnsQ==",
   "success": true,
-  "projectFilePath": "D:\\Users\\DELL\\source\\repos\\Sunmerx.Collector\\Sunmerx.Collector\\Sunmerx.Collector.csproj",
+  "projectFilePath": "E:\\Projects\\SunmerX.Collector\\Sunmerx.Collector\\Sunmerx.Collector.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\dryioc.dll\\4.7.7\\dryioc.dll.4.7.7.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\hslcommunication\\11.5.0\\hslcommunication.11.5.0.nupkg.sha512",

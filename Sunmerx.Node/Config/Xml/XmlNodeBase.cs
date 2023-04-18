@@ -29,5 +29,11 @@ namespace Sunmerx.Node.Config.Xml
         {
             get; set;
         }
+        [XmlElement]
+        public string NodeSettingJson
+        {
+            get;
+            set;
+        }
     }
 }

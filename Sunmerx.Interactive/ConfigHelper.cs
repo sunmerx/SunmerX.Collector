@@ -11,149 +11,54 @@ using Newbe.ObjectVisitor;
 using Sunmerx.Interactive.Config;
 using Sunmerx.Node;
 using Sunmerx.Node.Config.Xml;
+using Sunmerx.Common;
+using Sunmerx.Common.Extensions;
+using Sunmerx.Common.TypeConvert;
+using Newtonsoft.Json;
+using System.Collections;
+using Sunmerx.Interactive.Abstract;
 
 namespace Sunmerx.Interactive
 {
     public static class ConfigHelper
     {
-        public static IReadWriteNet GetClient(this XmlNodeDevice devicenode)
+        public static IClient GetClient(this XmlNodeDevice devicenode)
         {
-            throw new NotImplementedException();
-            //IReadWriteNet result;
-            //switch ( devicenode.DeviceType )
-            //{
-            //    case SR.DeviceTypes.Siemens:
-            //        result = new SiemensS7Net()
-            //        break;
-            //    default:
-            //        break;
-            //}
-        }
-        public static ConfigBase GetConfig(this XmlNodeDevice devicenode)
-        {
-            DeviceType devicetype = Enum.Parse<DeviceType>(devicenode.DeviceType , true);
-            switch ( devicetype )
+            //throw new NotImplementedException();
+            IReadWriteNet result;
+            switch ( devicenode.DeviceType )
             {
-                case DeviceType.Siemens:
-                    return devicenode.Settings.To<SiemensConfig>();
+                case SR.DeviceTypes.Siemens:
+                    var config = devicenode.GetConfigByJson<SiemensConfig>();
+                    result = new SiemensS7Net(config.PlcType , config.IPAddress);
+                    //config.BuilderAction?.Invoke(result);
+                    break;
                 default:
                     break;
             }
-        }
-        public static T To<T>(this XmlNodeSettings settings) where T:ConfigBase,new()
-        {
-            Type t = typeof(T);
-            T result = new();
-            foreach ( var prop in t.GetProperties() )
-            {
-                int index = settings.Items.FindIndex(a => a.Key == prop.Name);
-                if ( index > -1 )
-                {
-                    string str = settings.Items[index].Value;
-                    var val = ConvertTo(str , prop.PropertyType);
-                    if(val != null)
-                        prop.SetValue(result , val);
-                }
-            }
-            return result;
-        }
-        public static object? ConvertTo(this string str,Type t)
-        {
-            if ( t == typeof(string) )
-            {
-                return str;
-            }
-            if ( t == typeof(bool) )
-            {
-                var flag = Boolean.TryParse(str , out var val);
-                if ( flag )
-                    return val;
-                return null;
-            }
-            if ( t == typeof(byte) )
-            {
-                var flag = Byte.TryParse(str , out var val);
-                if ( flag )
-                    return val;
-                return null;
-            }
-            if ( t == typeof(UInt16) )
-            {
-                var flag = UInt16.TryParse(str , out var val);
-                if ( flag )
-                    return val;
-                return null;
-            }
-            if ( t == typeof(Int16) )
-            {
-                var flag = Int16.TryParse(str , out var val);
-                if ( flag )
-                    return val;
-                return null;
-            }
-            if ( t == typeof(UInt32) )
-            {
-                var flag = UInt16.TryParse(str , out var val);
-                if ( flag )
-                    return val;
-                return null;
-            }
-            if ( t == typeof(Int32) )
-            {
-                var flag = UInt16.TryParse(str , out var val);
-                if ( flag )
-                    return val;
-                return null;
-            }
-            if ( t == typeof(UInt64) )
-            {
-                var flag = UInt16.TryParse(str , out var val);
-                if ( flag )
-                    return val;
-                return null;
-            }
-            if ( t == typeof(Int64) )
-            {
-                var flag = UInt16.TryParse(str , out var val);
-                if ( flag )
-                    return val;
-                return null;
-            }
-            if ( t == typeof(float) )
-            {
-                var flag = UInt16.TryParse(str , out var val);
-                if ( flag )
-                    return val;
-                return null;
-            }
-            if ( t == typeof(double) )
-            {
-                var flag = UInt16.TryParse(str , out var val);
-                if ( flag )
-                    return val;
-                return null;
-            }
-            if ( t.IsEnum )
-            {
-                var flag = Enum.TryParse(t,str , out var val);
-                if ( flag )
-                    return val;
-                return null;
-            }
-            if ( t.IsArray )
-            {
-                var split = str.Split(',');
-                var type = t.MakeArrayType();
-                var array = Array.CreateInstance(type , split.Length);
-                for ( int i = 0 ; i < split.Length ; i++ )
-                {
-                    var value = ConvertTo(split[i] , type);
-                    array.SetValue(value , i);
-                }
-                return array;
-            }
             return null;
         }
+        public static T GetConfigByJson<T>(this XmlNodeDevice devicenode) where T:class
+        {
+            DeviceType devicetype = Enum.Parse<DeviceType>(devicenode.DeviceType , true);
+            return JsonHelper<T>.JsonToObject(devicenode.NodeSettingJson);
+        }
+        public static T GetConfigBySettings<T>(this XmlNodeDevice devicenode) where T:class
+        {
+            DeviceType devicetype = Enum.Parse<DeviceType>(devicenode.DeviceType , true);
+            return devicenode.Settings.Items.MapTo<SettingItem,T>((items,str)=> 
+            {
+                var dict = items.ToDictionary<SettingItem,string>(item=>item.Key);
+                if ( dict.TryGetValue(str , out var result) )
+                    return result;
+                else
+                    return null;
+            } , obj =>
+            {
+                return obj.Value;
+            });
+        }
         
+
     }
 }

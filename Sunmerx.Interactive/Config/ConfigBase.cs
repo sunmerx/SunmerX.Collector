@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HslCommunication;
+using HslCommunication.Core;
 
 namespace Sunmerx.Interactive.Config
 {
@@ -11,6 +13,14 @@ namespace Sunmerx.Interactive.Config
         public ConfigBase()
         {
 
+        }
+        public virtual Func<IReadWriteNet> BuilderFunc
+        {
+            get; 
+        }
+        public virtual OperateResult Connect()
+        {
+            return OperateResult.CreateSuccessResult();
         }
         public string Name
         {

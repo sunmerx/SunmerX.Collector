@@ -22,6 +22,7 @@ namespace Sunmerx.Collector.Views
         public MainWindow()
         {
             InitializeComponent();
+            
         }
     }
 }

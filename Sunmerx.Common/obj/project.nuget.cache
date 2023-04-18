@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "D5o9froZdviHZRejX4MNEZs43BklNHPCFJpZbxJ1g801MAH5NMbMDSBFJ/e9NigG+2cg+B3gxwn1oDGucM9LlA==",
+  "dgSpecHash": "rdPsZj2uKhaMekWrBKFHt0XUsnE209Th69ZZX2prdc3fcwgPrfb58KdW5UMJrU4g/sBsc7qbAwq9P+xxqN751w==",
   "success": true,
-  "projectFilePath": "D:\\Users\\DELL\\source\\repos\\Sunmerx.Collector\\Sunmerx.Common\\Sunmerx.Common.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\Projects\\SunmerX.Collector\\Sunmerx.Common\\Sunmerx.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

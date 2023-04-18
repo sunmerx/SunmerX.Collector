@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using HslCommunication.Core;
+using Sunmerx.Interactive.Abstract;
 using Sunmerx.Node.Config.Xml;
 
 namespace Sunmerx.Interactive.Device
@@ -11,7 +12,7 @@ namespace Sunmerx.Interactive.Device
     public class DeviceImp
     {
         public XmlNodeDevice Source;
-        public IReadWriteNet Client
+        public IClient Client
         {
             get; set;
         }
@@ -25,7 +26,9 @@ namespace Sunmerx.Interactive.Device
         }
         public static explicit operator DeviceImp(XmlNodeDevice device)
         {
-            
+            DeviceImp deviceimp = new DeviceImp();
+            deviceimp.Client = device.GetClient();
+            return deviceimp;
         }
     }
 }
