@@ -365,19 +365,6 @@
             "related": ".xml"
           }
         }
-      },
-      "Sunmerx.Node/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "HslCommunication": "11.5.0"
-        },
-        "compile": {
-          "bin/placeholder/Sunmerx.Node.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Sunmerx.Node.dll": {}
-        }
       }
     }
   },
@@ -1323,19 +1310,13 @@
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
-    },
-    "Sunmerx.Node/1.0.0": {
-      "type": "project",
-      "path": "../Sunmerx.Node/Sunmerx.Node.csproj",
-      "msbuildProject": "../Sunmerx.Node/Sunmerx.Node.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "HslCommunication >= 11.5.0",
       "MaterialDesignThemes >= 4.8.0",
-      "Prism.DryIoc >= 8.1.97",
-      "Sunmerx.Node >= 1.0.0"
+      "Prism.DryIoc >= 8.1.97"
     ]
   },
   "packageFolders": {
@@ -1363,19 +1344,17 @@
         "net6.0-windows"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
+        "D:\\NuGet.Package": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://ci.appveyor.com/nuget/gemini-g84phgw340sm": {}
+        "https://ci.appveyor.com/nuget/gemini-g84phgw340sm": {},
+        "https://www.nuget.org/api/v1/": {},
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {
-            "E:\\Projects\\SunmerX.Collector\\Sunmerx.Node\\Sunmerx.Node.csproj": {
-              "projectPath": "E:\\Projects\\SunmerX.Collector\\Sunmerx.Node\\Sunmerx.Node.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -1420,7 +1399,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

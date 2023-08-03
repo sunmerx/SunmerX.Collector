@@ -32,15 +32,15 @@
           }
         }
       },
-      "Newtonsoft.Json/13.0.3": {
+      "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -100,22 +100,6 @@
           }
         }
       },
-      "System.CodeDom/7.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.CodeDom.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/System.CodeDom.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
       "System.IO.Ports/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -143,20 +127,6 @@
             "assetType": "runtime",
             "rid": "win"
           }
-        }
-      },
-      "Sunmerx.Common/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Newtonsoft.Json": "13.0.3",
-          "System.CodeDom": "7.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Sunmerx.Common.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Sunmerx.Common.dll": {}
         }
       },
       "Sunmerx.Node/1.0.0": {
@@ -223,15 +193,14 @@
         "newbe.objectvisitor.nuspec"
       ]
     },
-    "Newtonsoft.Json/13.0.3": {
-      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
       "type": "package",
-      "path": "newtonsoft.json/13.0.3",
+      "path": "newtonsoft.json/13.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
-        "README.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -240,15 +209,13 @@
         "lib/net40/Newtonsoft.Json.xml",
         "lib/net45/Newtonsoft.Json.dll",
         "lib/net45/Newtonsoft.Json.xml",
-        "lib/net6.0/Newtonsoft.Json.dll",
-        "lib/net6.0/Newtonsoft.Json.xml",
         "lib/netstandard1.0/Newtonsoft.Json.dll",
         "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/netstandard1.3/Newtonsoft.Json.dll",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
         "lib/netstandard2.0/Newtonsoft.Json.dll",
         "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
@@ -348,33 +315,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.CodeDom/7.0.0": {
-      "sha512": "GLltyqEsE5/3IE+zYRP5sNa1l44qKl9v+bfdMcwg+M9qnQf47wK3H0SUR/T+3N4JEQXF3vV4CSuuo0rsg+nq2A==",
-      "type": "package",
-      "path": "system.codedom/7.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/System.CodeDom.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/System.CodeDom.targets",
-        "lib/net462/System.CodeDom.dll",
-        "lib/net462/System.CodeDom.xml",
-        "lib/net6.0/System.CodeDom.dll",
-        "lib/net6.0/System.CodeDom.xml",
-        "lib/net7.0/System.CodeDom.dll",
-        "lib/net7.0/System.CodeDom.xml",
-        "lib/netstandard2.0/System.CodeDom.dll",
-        "lib/netstandard2.0/System.CodeDom.xml",
-        "system.codedom.7.0.0.nupkg.sha512",
-        "system.codedom.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
     "System.IO.Ports/6.0.0": {
       "sha512": "dRyGI7fUESar5ZLIpiBOaaNLW7YyOBGftjj5Of+xcduC/Rjl7RjhEnWDvvNBmHuF3d0tdXoqdVI/yrVA8f00XA==",
       "type": "package",
@@ -408,11 +348,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Sunmerx.Common/1.0.0": {
-      "type": "project",
-      "path": "../Sunmerx.Common/Sunmerx.Common.csproj",
-      "msbuildProject": "../Sunmerx.Common/Sunmerx.Common.csproj"
-    },
     "Sunmerx.Node/1.0.0": {
       "type": "project",
       "path": "../Sunmerx.Node/Sunmerx.Node.csproj",
@@ -423,7 +358,6 @@
     "net6.0": [
       "HslCommunication >= 11.5.0",
       "Newbe.ObjectVisitor >= 0.4.4",
-      "Sunmerx.Common >= 1.0.0",
       "Sunmerx.Node >= 1.0.0"
     ]
   },
@@ -434,9 +368,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\SunmerX.Collector\\Sunmerx.Interactive\\Sunmerx.Interactive.csproj",
-      "projectName": "Sunmerx.Interactive",
-      "projectPath": "E:\\Projects\\SunmerX.Collector\\Sunmerx.Interactive\\Sunmerx.Interactive.csproj",
+      "projectUniqueName": "E:\\Projects\\SunmerX.Collector\\Sunmerx.Interactive\\Sunmerx.Interactive.Core.csproj",
+      "projectName": "Sunmerx.Interactive.Core",
+      "projectPath": "E:\\Projects\\SunmerX.Collector\\Sunmerx.Interactive\\Sunmerx.Interactive.Core.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
       "outputPath": "E:\\Projects\\SunmerX.Collector\\Sunmerx.Interactive\\obj\\",
       "projectStyle": "PackageReference",
@@ -452,8 +386,8 @@
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
+        "D:\\NuGet.Package": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://ci.appveyor.com/nuget/gemini-g84phgw340sm": {}
       },
@@ -461,9 +395,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Projects\\SunmerX.Collector\\Sunmerx.Common\\Sunmerx.Common.csproj": {
-              "projectPath": "E:\\Projects\\SunmerX.Collector\\Sunmerx.Common\\Sunmerx.Common.csproj"
-            },
             "E:\\Projects\\SunmerX.Collector\\Sunmerx.Node\\Sunmerx.Node.csproj": {
               "projectPath": "E:\\Projects\\SunmerX.Collector\\Sunmerx.Node\\Sunmerx.Node.csproj"
             }
@@ -505,7 +436,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
